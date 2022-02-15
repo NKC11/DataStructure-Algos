@@ -14,9 +14,11 @@ for (int i=0; i<inputString.Length;i++)
   index--;
 }
 Console.WriteLine("Reverse of the entered String is");
-foreach(char c in arr)
-{
-  Console.Write(c);
-}
+// foreach(char c in arr)
+// {
+//   Console.Write(c);
+// }
+
+Console.WriteLine(String.Join("",arr));
   }
 }
