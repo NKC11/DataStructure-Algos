@@ -13,7 +13,7 @@ for (int i=0; i<inputString.Length;i++)
   arr[i]=inputString[index];
   index--;
 }
-Console.WriteLine("Reverse of the entered String is");
+Console.WriteLine("Reverse of the entered String is as follows");
 // foreach(char c in arr)
 // {
 //   Console.Write(c);
